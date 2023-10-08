@@ -1,0 +1,30 @@
+form {
+    width: 400px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.217);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+input,label,button {
+    display: block;
+    margin-top: 3px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    width: fit-content;
+    margin:10px auto;
+    background-color: blueviolet;
+    border: none;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(146, 37, 248);
+}
