@@ -1,0 +1,28 @@
+
+ul {
+   width: fit-content;
+   list-style: none;
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr;
+   gap: 3px 3px;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding: 0;
+   margin: auto;
+}
+
+li {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(176, 93, 255);
+    font-size: 50px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+li:hover {
+    background-color: rgb(137, 43, 226);
+}

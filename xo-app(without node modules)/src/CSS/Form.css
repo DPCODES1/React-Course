@@ -1,0 +1,66 @@
+#backdrop {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.562);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+}
+
+
+form {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 3px rgb(0,0,0,0.4);
+    padding: 20px;
+    border-radius: 4px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+input,label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+
+
+button {
+    padding: 6px 20px;
+    cursor: pointer;
+    background-color: blueviolet;
+    border: none;
+    margin: 5px auto;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgb(95, 0, 184);
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: 0 auto;
+    align-items: center;
+    width: 70%;
+}
+
+#cancel {
+    background-color: transparent;
+    box-shadow: 1px 1px 4px rgb(0,0,0,0.4);
+}
+
+#cancel:hover {
+    background-color: rgb(188, 116, 255);
+}
